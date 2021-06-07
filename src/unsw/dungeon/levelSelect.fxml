@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="892.0" layoutX="-275.0" layoutY="-68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imgaes/thumb-1920-966319.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="186.0" layoutY="-22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imgaes/Dungeon%20(2).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lv1" layoutX="100.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleLv1Btn" text="LEVEL 1">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Line fx:id="l2" endX="-54.0" layoutX="266.0" layoutY="140.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv2" layoutX="213.0" layoutY="125.0" mnemonicParsing="false" onAction="#handleLv2Btn" text="LEVEL 2">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Line fx:id="l3" endX="-54.0" layoutX="378.0" layoutY="139.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv3" layoutX="325.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleLv3Btn" text="LEVEL 3">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Line fx:id="l4" endX="-54.0" layoutX="490.0" layoutY="138.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv4" layoutX="437.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleLv4Btn" text="LEVEL 4" />
+      <Line fx:id="l5" endX="26.3270263671875" endY="-83.0" layoutX="443.0" layoutY="238.0" startX="26.3270263671875" startY="-35.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Line fx:id="l6" endX="-54.0" layoutX="490.0" layoutY="219.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv5" layoutX="437.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleLv5Btn" text="LEVEL 5">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Line fx:id="l7" endX="-54.0" layoutX="378.0" layoutY="218.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv6" layoutX="325.0" layoutY="203.0" mnemonicParsing="false" onAction="#handleLv6Btn" text="LEVEL 6" />
+      <Line fx:id="l8" endX="-54.0" layoutX="266.0" layoutY="217.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv7" layoutX="213.0" layoutY="202.0" mnemonicParsing="false" onAction="#handleLv7Btn" text="LEVEL 7" />
+      <Button fx:id="lv8" layoutX="100.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleLv8Btn" text="LEVEL 8">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <Line fx:id="l9" endX="26.3270263671875" endY="-84.5" layoutX="106.0" layoutY="317.0" startX="26.3270263671875" startY="-35.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv9" layoutX="99.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleLv9Btn" text="LEVEL 9" />
+      <Line fx:id="l10" endX="-54.0" layoutX="264.0" layoutY="299.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Line>
+      <Button fx:id="lv10" layoutX="213.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleLv10Btn" text="LEVEL 10" />
+      <Button fx:id="backBtn" layoutX="262.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleBackBtn" prefHeight="27.0" prefWidth="77.0" text="BACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+   </children>
+</Pane>
